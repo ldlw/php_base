@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "classmap": ["lib/", "src", "app/Test1.php"],
+        "files": ["config/database.php", "func/helper.php"],
+        "psr-4": {
+            "admin\\": "admin/"
+        }
+    },
+    "require": {
+        "youngyezi/captcha": "6.0.*",
+        "catfan/medoo": "^2.1"
+    }
+}

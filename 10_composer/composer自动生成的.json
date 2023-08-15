@@ -1,0 +1,15 @@
+{
+    "name": "admin/10_composer",
+    "autoload": {
+        "psr-4": {
+            "Admin\\10Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "liuwei",
+            "email": "lvyx620@163.com"
+        }
+    ],
+    "require": {}
+}
